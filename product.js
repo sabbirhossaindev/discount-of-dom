@@ -9,7 +9,7 @@ function discountText (discountID){
     const discoountField = document.getElementById(discountID);
     const discountString = discoountField.value;
     discoountField.value='';
-    return discountString
+    return discountString;
 }
 function setTextValue (elementID,total){
     const lastPriceField = document.getElementById(elementID);
@@ -33,6 +33,6 @@ document.getElementById('sub-btn').addEventListener('click', function () {
         return;
     }
     const totalDiscountPrice = priceField - ((priceField / 100) * discountField);
-    setTextValue('last-price', totalDiscountPrice)
+    setTextValue('last-price', totalDiscountPrice);
 
 });
