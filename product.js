@@ -3,7 +3,7 @@ function getPriceFieldValue(priceId){
     const priceString = priceField.value;
     const price = parseFloat(priceString);
     priceField.value = '';
-    return price
+    return price;
 }
 function discountText (discountID){
     const discoountField = document.getElementById(discountID);
