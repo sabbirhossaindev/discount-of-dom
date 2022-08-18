@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nijer bank </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <head class="row">
+        <h1 class="text-5xl text-center mt-8">Discount <span class="text-rose-400 font-medium">Calculation..</span></h1>
+    </head>
+    <main>
+         <!-- withdraw & deposit section -->
+         <section class="row mt-12">
+            <div class="grid grid-cols-1 gap-4 w-6/12 mx-auto">
+                <div class="bg-sky-400 p-8 rounded-lg">
+                    <h2 class="text-3xl mb-3 px-3">Discount Total Price: <span class="text-black-400 font-bold" id="last-price">00</span></h2>
+                    <input class="w-9/12 block mb-3 px-3 rounded" style="outline: none;" type="text" name="" id="price" placeholder="$ Input Your Price">
+                    <input class="w-9/12 block mb-3 px-3 rounded" style="outline: none;" type="text" name="" id="discount" placeholder="Discount">
+                    <input class="w-9/12 block mb-3 px-3 rounded" style="outline: none;" type="text" name="" id="coupon-code" placeholder="type dom">
+                    <button id="sub-btn"" class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medim rounded-lg">Submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="product.js"></script>
+</html>
